@@ -34,10 +34,10 @@ const main = () => {
         if (completedTasks === numWorkers) {
             const flatPrimes = tasks.flat();
             const endTime = new Date().getTime();
-            const timeDiff = (endTime - startTime) / 1000; // Saniye cinsinden
-
+            const timeDiff = (endTime - startTime) / 1000; // second
             console.log(`${flatPrimes}`);
-            console.log("fast: " + timeDiff + " saniye");
+            console.log(`Faster one: ${timeDiff} seconds, # ${flatPrimes.length} `)
+
         }
     };
 

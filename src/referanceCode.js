@@ -34,4 +34,4 @@ const timeDiff = (endTime - startTime) / 1000;
 const message = "Prime is : " + primes.join(" ");
 
 console.log(message);
-console.log(`Slow one: ${timeDiff} seconds, # ${primes.length} `)
+console.log(`Slower one: ${timeDiff} seconds, # ${primes.length} `)
