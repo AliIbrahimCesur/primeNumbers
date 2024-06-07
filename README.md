@@ -1,8 +1,4 @@
-# Project Title
-
-Prime Numbers
-
-## Description
+# Prime Numbers
 
 This project generates prime numbers within a specified range using worker threads in Node.js.
 
@@ -10,15 +6,25 @@ This project generates prime numbers within a specified range using worker threa
 
 ```
 git clone https://github.com/AliIbrahimCesur/primeNumbers.git
-cd primeNumbers
-npm install
 
 ```
+```
+cd primeNumbers
+```
+```
+npm install
+```
+
+
 
 ### Running
 
+```
 node dist/main.js
+```
+```
 node src/referanceCode.js
+```
 
 ## Running the tests
 
